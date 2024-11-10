@@ -19,8 +19,6 @@ public class Program
         Console.WriteLine($"Name: {person.Name}");
         Console.WriteLine($"Age: {person.Age}");
 
-        person.Name = "lui";
-        person.Age = 30;
 
         Console.WriteLine($"Updated Name: {person.Name}");
         Console.WriteLine($"Updated Age: {person.Age}");
